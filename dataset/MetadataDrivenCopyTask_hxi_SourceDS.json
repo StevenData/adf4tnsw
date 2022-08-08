@@ -1,0 +1,33 @@
+{
+	"name": "MetadataDrivenCopyTask_hxi_SourceDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls2azuredb",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"cw_schema": {
+				"type": "String"
+			},
+			"cw_table": {
+				"type": "String"
+			}
+		},
+		"folder": {
+			"name": "MetadataDrivenCopyTask_hxi_20220808"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().cw_schema",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().cw_table",
+				"type": "Expression"
+			}
+		}
+	}
+}
