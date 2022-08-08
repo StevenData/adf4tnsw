@@ -4,7 +4,8 @@
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"connectionString": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=dbserver4tnsw.database.windows.net;Initial Catalog=db4tnsw;User ID=admin6200",
+			"password": {
 				"type": "AzureKeyVaultSecret",
 				"store": {
 					"referenceName": "ls2akv",
