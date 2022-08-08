@@ -1,0 +1,19 @@
+{
+	"name": "MetadataDrivenCopyTask_hxi_ControlDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls2azuredb",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "MetadataDrivenCopyTask_hxi_20220808"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "md",
+			"table": "MainControlTable_4md"
+		}
+	}
+}
