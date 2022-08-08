@@ -1,0 +1,9 @@
+{
+	"name": "adf4tnsw",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4f093c7e-c8e5-4de5-8438-5075ef34ea61",
+		"tenantId": "82728920-263c-4b75-9cd6-331433c34aa8"
+	}
+}
