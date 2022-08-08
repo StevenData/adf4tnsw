@@ -1,0 +1,10 @@
+{
+	"name": "ls2adls",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adls4tnsw.dfs.core.windows.net/"
+		}
+	}
+}
